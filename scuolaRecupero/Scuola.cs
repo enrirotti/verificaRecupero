@@ -33,5 +33,15 @@ namespace scuolaRecupero
         {
             
         }
+
+        public string searchEta(int eta)
+        {
+
+        }
+
+        public int totale()
+        {
+            return elenco.Count;
+        }
     }
 }
