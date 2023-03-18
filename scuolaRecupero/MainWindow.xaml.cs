@@ -20,9 +20,42 @@ namespace scuolaRecupero
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<string> Alunni;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+       
+        private void btnClasse_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDati_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnAggiungi_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTotale_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnRicercaCogn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnRicEta_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

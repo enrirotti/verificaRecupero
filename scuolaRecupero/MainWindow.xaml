@@ -12,20 +12,20 @@
         <TextBox x:Name="txtEta" HorizontalAlignment="Left" Margin="54,80,0,0" TextWrapping="Wrap" Text="eta" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtClasse" HorizontalAlignment="Left" Margin="54,103,0,0" TextWrapping="Wrap" Text="classe" VerticalAlignment="Top" Width="120"/>
         <Border BorderBrush="Black" BorderThickness="1" Margin="23,10,594,180">
-            <Button x:Name="btnClasse" Content="Trova classe" Margin="41,137,41,81"/>
+            <Button x:Name="btnClasse" Content="Trova classe" Margin="41,137,41,81" Click="btnClasse_Click"/>
         </Border>
         <Label Content="alunno" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnDati" Content="stampa dati" HorizontalAlignment="Left" Margin="67,184,0,0" VerticalAlignment="Top" Height="33" Width="107"/>
-        <Button x:Name="btnAggiungi" Content="aggiungi alunno" HorizontalAlignment="Left" Margin="283,234,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDati" Content="stampa dati" HorizontalAlignment="Left" Margin="67,184,0,0" VerticalAlignment="Top" Height="33" Width="107" Click="btnDati_Click"/>
+        <Button x:Name="btnAggiungi" Content="aggiungi alunno" HorizontalAlignment="Left" Margin="283,234,0,0" VerticalAlignment="Top" Click="btnAggiungi_Click"/>
         <TextBox x:Name="txtNomeSc" HorizontalAlignment="Left" Margin="441,23,0,0" TextWrapping="Wrap" Text="nome" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtIndirizzo" HorizontalAlignment="Left" Margin="441,57,0,0" TextWrapping="Wrap" Text="indirizzo" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtApertura" HorizontalAlignment="Left" Margin="441,89,0,0" TextWrapping="Wrap" Text="apertura" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtchiusura" HorizontalAlignment="Left" Margin="441,123,0,0" TextWrapping="Wrap" Text="chiusura" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtRicercaCogn" HorizontalAlignment="Left" Margin="441,309,0,0" TextWrapping="Wrap" Text="cognome" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnRicercaCogn" Content="ricerca in base al cognome" HorizontalAlignment="Left" Margin="618,309,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnRicercaCogn" Content="ricerca in base al cognome" HorizontalAlignment="Left" Margin="618,309,0,0" VerticalAlignment="Top" Click="btnRicercaCogn_Click"/>
         <TextBox x:Name="txtRicEta" HorizontalAlignment="Left" Margin="441,345,0,0" TextWrapping="Wrap" Text="eta" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnRicEta" Content="ricerca in base all'eta" HorizontalAlignment="Left" Margin="618,345,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnTotale" Content="Stampa totale" HorizontalAlignment="Left" Margin="501,234,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnRicEta" Content="ricerca in base all'eta" HorizontalAlignment="Left" Margin="618,345,0,0" VerticalAlignment="Top" Click="btnRicEta_Click"/>
+        <Button x:Name="btnTotale" Content="Stampa totale" HorizontalAlignment="Left" Margin="501,234,0,0" VerticalAlignment="Top" Click="btnTotale_Click"/>
         <Border BorderBrush="Black" BorderThickness="1" Margin="413,10,211,233"/>
         <Label Content="scuola" HorizontalAlignment="Left" Margin="441,173,0,0" VerticalAlignment="Top"/>
 
